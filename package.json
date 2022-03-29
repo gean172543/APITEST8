@@ -1,0 +1,28 @@
+{
+  "name": "apitest8",
+  "version": "1.0.0",
+  "description": "Test Dev REST API",
+  "main": "index.js",
+  "scripts": {
+    "devStart":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gean172543/APITEST8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gean172543/APITEST8/issues"
+  },
+  "homepage": "https://github.com/gean172543/APITEST8#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
