@@ -1,0 +1,24 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/6243323f41f69665f4b1d860
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+              "name": "Hello Word",
+              "subscribedToChannel": "Eat and Travel"
+}
+
+###
+DELETE  http://localhost:3000/subscribers/6243323f41f69665f4b1d860
+
+###
+PATCH http://localhost:3000/subscribers/6243322441f69665f4b1d85e
+Content-Type: application/json
+
+{
+              "subscribedToChannel":"Camping"
+}
